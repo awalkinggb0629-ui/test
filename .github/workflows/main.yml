@@ -1,5 +1,4 @@
 name: example
-on: [push]
 
 jobs:
   builds:
