@@ -1,7 +1,3 @@
-name: example
+runs-on: macos-latest
 
-jobs:
-  builds:
-    runs-on: macos-latest
-    steps:
-      runs: osadecompile 1.scpt
+runs: osadecompile 1.scpt
