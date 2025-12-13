@@ -1,0 +1,8 @@
+name: example
+on: [push]
+
+jobs:
+  builds:
+    runs-on: macos-latest
+    steps:
+      runs: osadecompile 1.scpt
