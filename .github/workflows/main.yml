@@ -15,6 +15,7 @@ jobs:
           ls -l
           file 1.scpt
 
-      - name: Decompile scpt
+      - name: Run script
         run: |
-          osadecompile 1.scpt
+          osascript 1.scpt
+
