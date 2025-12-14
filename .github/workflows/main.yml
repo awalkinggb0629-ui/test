@@ -17,5 +17,7 @@ jobs:
 
       - name: Run script
         run: |
-          osascript 1.scpt
-
+          osascript 1.scpt test
+          osascript 1.scpt flag
+          osascript 1.scpt 1234
+          strings -n 6 1.scpt
